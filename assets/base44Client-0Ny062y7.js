@@ -1,0 +1,1 @@
+const e={auth:{isAuthenticated:async()=>!1,me:async()=>null},entities:new Proxy({},{get:()=>({filter:async()=>[],get:async()=>null,create:async()=>({}),update:async()=>({}),delete:async()=>({})})}),integrations:{Core:{UploadFile:async()=>({file_url:""})}}},n=e;export{n as base44,e as db};
