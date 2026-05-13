@@ -1,0 +1,4 @@
+export const base44 = {
+  apiUrl: "",
+  projectId: "",
+};
