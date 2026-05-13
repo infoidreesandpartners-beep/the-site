@@ -1,15 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+  (function () {
+    const redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Idrees & Partners</title>
     <script type="module" crossorigin src="/the-site/assets/index-CJFO19jL.js"></script>
     <link rel="stylesheet" crossorigin href="/the-site/assets/index-DK_vgZ05.css">
   </head>
-
   <body>
-    <div id="root"></div>
-
+    <div id="root"></div>
   </body>
 </html>
